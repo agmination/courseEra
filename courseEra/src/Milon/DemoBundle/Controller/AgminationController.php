@@ -6,8 +6,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class AgminationController extends Controller
 {
-    public function firstPageAction($myVariable)
+    public function firstPageAction()
     {
-        return $this->render('MilonDemoBundle:AgminationView:first.html.twig', array('cheese' => $myVariable));
+        return $this->render('MilonDemoBundle:AgminationView:first.html.twig');
+        //return $this->render('MilonDemoBundle:AgminationView:first.html.twig', array('cheese' => $myVariable));
     }
 }

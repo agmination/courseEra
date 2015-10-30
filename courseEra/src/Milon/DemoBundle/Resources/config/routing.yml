@@ -3,5 +3,5 @@ milon_demo_homepage:
     defaults: { _controller: MilonDemoBundle:Default:index }
 
 milon_demo_newpage:
-    path:     /agmination/{myVariable}
+    path:     /agmination
     defaults: { _controller: MilonDemoBundle:Agmination:firstPage }
