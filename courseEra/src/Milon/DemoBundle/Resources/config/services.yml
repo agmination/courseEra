@@ -1,0 +1,4 @@
+services:
+#    milon_demo.example:
+#        class: Milon\DemoBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

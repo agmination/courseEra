@@ -1,0 +1,7 @@
+milon_demo_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MilonDemoBundle:Default:index }
+
+milon_demo_newpage:
+    path:     /agmination/{myVariable}
+    defaults: { _controller: MilonDemoBundle:Agmination:firstPage }
